@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="58" passed="55" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-28T02:14:06 EDT" name="FullRegressionSuite" finished-at="2026-06-28T02:17:44 EDT" duration-ms="218296">
+    <groups>
+      <group name="lifecycle">
+        <method signature="EnterpriseTestSuite.lifecycle_AppKillAndRelaunchRecoversCleanly()[pri:3, instance:tests.EnterpriseTestSuite@1ebd319f]" name="lifecycle_AppKillAndRelaunchRecoversCleanly" class="tests.EnterpriseTestSuite"/>
+        <method signature="EnterpriseTestSuite.lifecycle_RotationDoesNotCrashApp()[pri:4, instance:tests.EnterpriseTestSuite@1ebd319f]" name="lifecycle_RotationDoesNotCrashApp" class="tests.EnterpriseTestSuite"/>
+      </group> <!-- lifecycle -->
+      <group name="security">
+        <method signature="EnterpriseTestSuite.security_AppStateClearsAfterTermination()[pri:14, instance:tests.EnterpriseTestSuite@1ebd319f]" name="security_AppStateClearsAfterTermination" class="tests.EnterpriseTestSuite"/>
+      </group> <!-- security -->
+      <group name="negative">
+        <method signature="EnterpriseTestSuite.negative_EmptyInputDoesNotCrashApp()[pri:10, instance:tests.EnterpriseTestSuite@1ebd319f]" name="negative_EmptyInputDoesNotCrashApp" class="tests.EnterpriseTestSuite"/>
+        <method signature="EnterpriseTestSuite.negative_InvalidElementInteractionThrowsGracefulException()[pri:11, instance:tests.EnterpriseTestSuite@1ebd319f]" name="negative_InvalidElementInteractionThrowsGracefulException" class="tests.EnterpriseTestSuite"/>
+      </group> <!-- negative -->
+      <group name="navigation">
+        <method signature="EnterpriseTestSuite.navigation_MultiStepBackButtonNavigatesCorrectly()[pri:5, instance:tests.EnterpriseTestSuite@1ebd319f]" name="navigation_MultiStepBackButtonNavigatesCorrectly" class="tests.EnterpriseTestSuite"/>
+        <method signature="EnterpriseTestSuite.navigation_RapidMenuSwitchingDoesNotBreakApp()[pri:6, instance:tests.EnterpriseTestSuite@1ebd319f]" name="navigation_RapidMenuSwitchingDoesNotBreakApp" class="tests.EnterpriseTestSuite"/>
+      </group> <!-- navigation -->
+      <group name="performance">
+        <method signature="EnterpriseTestSuite.performance_ScrollResponseTimeWithinThreshold()[pri:12, instance:tests.EnterpriseTestSuite@1ebd319f]" name="performance_ScrollResponseTimeWithinThreshold" class="tests.EnterpriseTestSuite"/>
+        <method signature="EnterpriseTestSuite.performance_ElementWaitTimeWithinThreshold()[pri:13, instance:tests.EnterpriseTestSuite@1ebd319f]" name="performance_ElementWaitTimeWithinThreshold" class="tests.EnterpriseTestSuite"/>
+      </group> <!-- performance -->
+      <group name="accessibility">
+        <method signature="EnterpriseTestSuite.accessibility_MenuItemsHaveAccessibilityLabels()[pri:15, instance:tests.EnterpriseTestSuite@1ebd319f]" name="accessibility_MenuItemsHaveAccessibilityLabels" class="tests.EnterpriseTestSuite"/>
+        <method signature="EnterpriseTestSuite.accessibility_TapTargetsAreReasonablySized()[pri:16, instance:tests.EnterpriseTestSuite@1ebd319f]" name="accessibility_TapTargetsAreReasonablySized" class="tests.EnterpriseTestSuite"/>
+      </group> <!-- accessibility -->
+      <group name="permissions">
+        <method signature="EnterpriseTestSuite.permissions_GrantFlowDoesNotThrowWhenNoDialogPresent()[pri:9, instance:tests.EnterpriseTestSuite@1ebd319f]" name="permissions_GrantFlowDoesNotThrowWhenNoDialogPresent" class="tests.EnterpriseTestSuite"/>
+      </group> <!-- permissions -->
+      <group name="smoke">
+        <method signature="EnterpriseTestSuite.smoke_AppLaunchesAndMainScreenLoads()[pri:1, instance:tests.EnterpriseTestSuite@1ebd319f]" name="smoke_AppLaunchesAndMainScreenLoads" class="tests.EnterpriseTestSuite"/>
+        <method signature="EnterpriseTestSuite.smoke_BasicNavigationWorks()[pri:2, instance:tests.EnterpriseTestSuite@1ebd319f]" name="smoke_BasicNavigationWorks" class="tests.EnterpriseTestSuite"/>
+      </group> <!-- smoke -->
+      <group name="device">
+        <method signature="EnterpriseTestSuite.device_ScreenDimensionsAreValid()[pri:7, instance:tests.EnterpriseTestSuite@1ebd319f]" name="device_ScreenDimensionsAreValid" class="tests.EnterpriseTestSuite"/>
+        <method signature="EnterpriseTestSuite.device_PlatformVersionIsAccessible()[pri:8, instance:tests.EnterpriseTestSuite@1ebd319f]" name="device_PlatformVersionIsAccessible" class="tests.EnterpriseTestSuite"/>
+      </group> <!-- device -->
+    </groups>
+    <test started-at="2026-06-28T02:14:06 EDT" name="Install Lifecycle Tests" finished-at="2026-06-28T02:14:18 EDT" duration-ms="12353">
+      <class name="tests.InstallLifecycleTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:06 EDT" name="setUp" finished-at="2026-06-28T02:14:11 EDT" duration-ms="5268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:11 EDT" name="setupReport" finished-at="2026-06-28T02:14:11 EDT" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstallLifecycleTests.install_FreshInstallSucceeds()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="install_FreshInstallSucceeds()[pri:1, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:11 EDT" name="install_FreshInstallSucceeds" finished-at="2026-06-28T02:14:12 EDT" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- install_FreshInstallSucceeds -->
+        <test-method signature="install_FreshlyInstalledAppLaunchesSuccessfully()[pri:2, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:12 EDT" name="install_FreshlyInstalledAppLaunchesSuccessfully" finished-at="2026-06-28T02:14:15 EDT" depends-on-methods="tests.InstallLifecycleTests.install_FreshInstallSucceeds" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- install_FreshlyInstalledAppLaunchesSuccessfully -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:12 EDT" name="setupReport" finished-at="2026-06-28T02:14:12 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstallLifecycleTests.install_FreshlyInstalledAppLaunchesSuccessfully()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="install_ReinstallOverExistingAppSucceeds()[pri:3, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:15 EDT" name="install_ReinstallOverExistingAppSucceeds" finished-at="2026-06-28T02:14:15 EDT" depends-on-methods="tests.InstallLifecycleTests.install_FreshlyInstalledAppLaunchesSuccessfully" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- install_ReinstallOverExistingAppSucceeds -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:15 EDT" name="setupReport" finished-at="2026-06-28T02:14:15 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstallLifecycleTests.install_ReinstallOverExistingAppSucceeds()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:15 EDT" name="setupReport" finished-at="2026-06-28T02:14:15 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstallLifecycleTests.uninstall_AppRemovesSuccessfully()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="uninstall_AppRemovesSuccessfully()[pri:4, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:15 EDT" name="uninstall_AppRemovesSuccessfully" finished-at="2026-06-28T02:14:16 EDT" depends-on-methods="tests.InstallLifecycleTests.install_ReinstallOverExistingAppSucceeds" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uninstall_AppRemovesSuccessfully -->
+        <test-method signature="install_ReinstallAfterUninstallSucceeds()[pri:5, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:16 EDT" name="install_ReinstallAfterUninstallSucceeds" finished-at="2026-06-28T02:14:17 EDT" depends-on-methods="tests.InstallLifecycleTests.uninstall_AppRemovesSuccessfully" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- install_ReinstallAfterUninstallSucceeds -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:16 EDT" name="setupReport" finished-at="2026-06-28T02:14:16 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstallLifecycleTests.install_ReinstallAfterUninstallSucceeds()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InstallLifecycleTests@139982de]" started-at="2026-06-28T02:14:17 EDT" name="tearDown" finished-at="2026-06-28T02:14:18 EDT" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.InstallLifecycleTests -->
+    </test> <!-- Install Lifecycle Tests -->
+    <test started-at="2026-06-28T02:14:18 EDT" name="Combined Core + Advanced Tests" finished-at="2026-06-28T02:16:02 EDT" duration-ms="104111">
+      <class name="tests.CombinedApiDemosTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:18 EDT" name="setUp" finished-at="2026-06-28T02:14:25 EDT" duration-ms="7290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:25 EDT" name="setupReport" finished-at="2026-06-28T02:14:26 EDT" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testAppLaunchesWithCorrectPackage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testAppLaunchesWithCorrectPackage()[pri:1, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:26 EDT" name="testAppLaunchesWithCorrectPackage" finished-at="2026-06-28T02:14:26 EDT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppLaunchesWithCorrectPackage -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:26 EDT" name="setupReport" finished-at="2026-06-28T02:14:26 EDT" duration-ms="43" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testMainScreenExactMenuItemCount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testMainScreenExactMenuItemCount()[pri:2, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:26 EDT" name="testMainScreenExactMenuItemCount" finished-at="2026-06-28T02:14:26 EDT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMainScreenExactMenuItemCount -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:26 EDT" name="setupReport" finished-at="2026-06-28T02:14:26 EDT" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testAllMenuItemsHaveNonEmptyText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testAllMenuItemsHaveNonEmptyText()[pri:3, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:26 EDT" name="testAllMenuItemsHaveNonEmptyText" finished-at="2026-06-28T02:14:26 EDT" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllMenuItemsHaveNonEmptyText -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:26 EDT" name="setupReport" finished-at="2026-06-28T02:14:26 EDT" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testBackNavigationReturnsToMainScreen()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testBackNavigationReturnsToMainScreen()[pri:4, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:26 EDT" name="testBackNavigationReturnsToMainScreen" finished-at="2026-06-28T02:14:29 EDT" duration-ms="2503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBackNavigationReturnsToMainScreen -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:29 EDT" name="setupReport" finished-at="2026-06-28T02:14:29 EDT" duration-ms="42" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testNavigateMultipleScreensDataDriven(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testNavigateMultipleScreensDataDriven(java.lang.String)[pri:5, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:29 EDT" name="testNavigateMultipleScreensDataDriven" data-provider="screenNames" finished-at="2026-06-28T02:14:32 EDT" duration-ms="3282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accessibility]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateMultipleScreensDataDriven -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:32 EDT" name="setupReport" finished-at="2026-06-28T02:14:32 EDT" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testNavigateMultipleScreensDataDriven(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testNavigateMultipleScreensDataDriven(java.lang.String)[pri:5, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:32 EDT" name="testNavigateMultipleScreensDataDriven" data-provider="screenNames" finished-at="2026-06-28T02:14:35 EDT" duration-ms="3350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Animation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateMultipleScreensDataDriven -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:35 EDT" name="setupReport" finished-at="2026-06-28T02:14:36 EDT" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testNavigateMultipleScreensDataDriven(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testNavigateMultipleScreensDataDriven(java.lang.String)[pri:5, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:36 EDT" name="testNavigateMultipleScreensDataDriven" data-provider="screenNames" finished-at="2026-06-28T02:14:39 EDT" duration-ms="3261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[App]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateMultipleScreensDataDriven -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:39 EDT" name="setupReport" finished-at="2026-06-28T02:14:39 EDT" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testNavigateMultipleScreensDataDriven(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testNavigateMultipleScreensDataDriven(java.lang.String)[pri:5, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:39 EDT" name="testNavigateMultipleScreensDataDriven" data-provider="screenNames" finished-at="2026-06-28T02:14:43 EDT" duration-ms="3880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Content]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateMultipleScreensDataDriven -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:43 EDT" name="setupReport" finished-at="2026-06-28T02:14:43 EDT" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testNavigateMultipleScreensDataDriven(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testNavigateMultipleScreensDataDriven(java.lang.String)[pri:5, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:43 EDT" name="testNavigateMultipleScreensDataDriven" data-provider="screenNames" finished-at="2026-06-28T02:14:47 EDT" duration-ms="3952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Graphics]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateMultipleScreensDataDriven -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:47 EDT" name="setupReport" finished-at="2026-06-28T02:14:47 EDT" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testClickingInvalidMenuItemThrowsException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testClickingInvalidMenuItemThrowsException()[pri:6, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:47 EDT" name="testClickingInvalidMenuItemThrowsException" finished-at="2026-06-28T02:14:47 EDT" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickingInvalidMenuItemThrowsException -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:47 EDT" name="setupReport" finished-at="2026-06-28T02:14:47 EDT" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testScrollToFindViewsMenuItem()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testScrollToFindViewsMenuItem()[pri:7, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:47 EDT" name="testScrollToFindViewsMenuItem" finished-at="2026-06-28T02:14:50 EDT" duration-ms="3068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollToFindViewsMenuItem -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:50 EDT" name="setupReport" finished-at="2026-06-28T02:14:51 EDT" duration-ms="517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testAppBackgroundAndForegroundResumesCorrectly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testAppBackgroundAndForegroundResumesCorrectly()[pri:8, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:51 EDT" name="testAppBackgroundAndForegroundResumesCorrectly" finished-at="2026-06-28T02:14:55 EDT" duration-ms="4835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppBackgroundAndForegroundResumesCorrectly -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:55 EDT" name="setupReport" finished-at="2026-06-28T02:14:56 EDT" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testSoftAssertionAcrossMultipleMenuItems()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testSoftAssertionAcrossMultipleMenuItems()[pri:9, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:56 EDT" name="testSoftAssertionAcrossMultipleMenuItems" finished-at="2026-06-28T02:14:56 EDT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSoftAssertionAcrossMultipleMenuItems -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:56 EDT" name="setupReport" finished-at="2026-06-28T02:14:56 EDT" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testCurrentPackageMatchesExpected()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testCurrentPackageMatchesExpected()[pri:10, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:56 EDT" name="testCurrentPackageMatchesExpected" finished-at="2026-06-28T02:14:56 EDT" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrentPackageMatchesExpected -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:56 EDT" name="setupReport" finished-at="2026-06-28T02:14:56 EDT" duration-ms="53" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testExplicitWaitForMenuItemVisibility()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testExplicitWaitForMenuItemVisibility()[pri:11, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:56 EDT" name="testExplicitWaitForMenuItemVisibility" finished-at="2026-06-28T02:14:56 EDT" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExplicitWaitForMenuItemVisibility -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:56 EDT" name="setupReport" finished-at="2026-06-28T02:14:56 EDT" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testCustomRetryMechanismFindsElementReliably()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testCustomRetryMechanismFindsElementReliably()[pri:12, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:56 EDT" name="testCustomRetryMechanismFindsElementReliably" finished-at="2026-06-28T02:14:56 EDT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomRetryMechanismFindsElementReliably -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:56 EDT" name="setupReport" finished-at="2026-06-28T02:14:56 EDT" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testTextInputFieldAcceptsAndRetainsValue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testTextInputFieldAcceptsAndRetainsValue()[pri:13, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:14:56 EDT" name="testTextInputFieldAcceptsAndRetainsValue" finished-at="2026-06-28T02:15:03 EDT" duration-ms="6651" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[No sub-screen with EditText found under 'Text' menu]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: No sub-screen with EditText found under 'Text' menu
+at tests.CombinedApiDemosTests.testTextInputFieldAcceptsAndRetainsValue(CombinedApiDemosTests.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextInputFieldAcceptsAndRetainsValue -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:03 EDT" name="setupReport" finished-at="2026-06-28T02:15:14 EDT" duration-ms="11370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testKeyboardShowsAndHidesOnTextField()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testKeyboardShowsAndHidesOnTextField()[pri:14, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:14 EDT" name="testKeyboardShowsAndHidesOnTextField" finished-at="2026-06-28T02:15:20 EDT" duration-ms="6125" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[No EditText screen found under 'Text' menu]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: No EditText screen found under 'Text' menu
+at tests.CombinedApiDemosTests.testKeyboardShowsAndHidesOnTextField(CombinedApiDemosTests.java:214)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testKeyboardShowsAndHidesOnTextField -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:20 EDT" name="setupReport" finished-at="2026-06-28T02:15:32 EDT" duration-ms="11323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testDeviceOrientationChangeKeepsAppFunctional()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testDeviceOrientationChangeKeepsAppFunctional()[pri:15, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:32 EDT" name="testDeviceOrientationChangeKeepsAppFunctional" finished-at="2026-06-28T02:15:35 EDT" duration-ms="3351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeviceOrientationChangeKeepsAppFunctional -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:35 EDT" name="setupReport" finished-at="2026-06-28T02:15:35 EDT" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testDeviceTimeIsAccessible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testDeviceTimeIsAccessible()[pri:16, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:35 EDT" name="testDeviceTimeIsAccessible" finished-at="2026-06-28T02:15:35 EDT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeviceTimeIsAccessible -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:35 EDT" name="setupReport" finished-at="2026-06-28T02:15:35 EDT" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testAppResetReturnsToCleanState()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testAppResetReturnsToCleanState()[pri:17, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:35 EDT" name="testAppResetReturnsToCleanState" finished-at="2026-06-28T02:15:40 EDT" duration-ms="5097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppResetReturnsToCleanState -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:40 EDT" name="setupReport" finished-at="2026-06-28T02:15:40 EDT" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testAppRetainsSubScreenStateAfterBackgrounding()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testAppRetainsSubScreenStateAfterBackgrounding()[pri:18, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:40 EDT" name="testAppRetainsSubScreenStateAfterBackgrounding" finished-at="2026-06-28T02:15:47 EDT" duration-ms="7193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppRetainsSubScreenStateAfterBackgrounding -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:47 EDT" name="setupReport" finished-at="2026-06-28T02:15:48 EDT" duration-ms="550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testMenuItemBoundingBoxWithinScreenBounds()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testMenuItemBoundingBoxWithinScreenBounds()[pri:19, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:48 EDT" name="testMenuItemBoundingBoxWithinScreenBounds" finished-at="2026-06-28T02:15:48 EDT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuItemBoundingBoxWithinScreenBounds -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:48 EDT" name="setupReport" finished-at="2026-06-28T02:15:48 EDT" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testSessionRemainsStableAcrossRapidNavigation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testSessionRemainsStableAcrossRapidNavigation()[pri:20, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:15:48 EDT" name="testSessionRemainsStableAcrossRapidNavigation" finished-at="2026-06-28T02:16:00 EDT" duration-ms="11640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSessionRemainsStableAcrossRapidNavigation -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:16:00 EDT" name="setupReport" finished-at="2026-06-28T02:16:00 EDT" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CombinedApiDemosTests.testAppLaunchPerformanceWithinThreshold()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="testAppLaunchPerformanceWithinThreshold()[pri:21, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:16:00 EDT" name="testAppLaunchPerformanceWithinThreshold" finished-at="2026-06-28T02:16:02 EDT" duration-ms="1826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppLaunchPerformanceWithinThreshold -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CombinedApiDemosTests@4e3958e7]" started-at="2026-06-28T02:16:02 EDT" name="tearDown" finished-at="2026-06-28T02:16:02 EDT" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CombinedApiDemosTests -->
+    </test> <!-- Combined Core + Advanced Tests -->
+    <test started-at="2026-06-28T02:16:02 EDT" name="Enterprise Test Categories" finished-at="2026-06-28T02:16:59 EDT" duration-ms="57203">
+      <class name="tests.EnterpriseTestSuite">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:02 EDT" name="setUp" finished-at="2026-06-28T02:16:08 EDT" duration-ms="5455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:08 EDT" name="setupReport" finished-at="2026-06-28T02:16:08 EDT" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.smoke_AppLaunchesAndMainScreenLoads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="smoke_AppLaunchesAndMainScreenLoads()[pri:1, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:08 EDT" name="smoke_AppLaunchesAndMainScreenLoads" finished-at="2026-06-28T02:16:08 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke_AppLaunchesAndMainScreenLoads -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:08 EDT" name="setupReport" finished-at="2026-06-28T02:16:08 EDT" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.smoke_BasicNavigationWorks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="smoke_BasicNavigationWorks()[pri:2, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:08 EDT" name="smoke_BasicNavigationWorks" finished-at="2026-06-28T02:16:13 EDT" duration-ms="4805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke_BasicNavigationWorks -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:13 EDT" name="setupReport" finished-at="2026-06-28T02:16:13 EDT" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.lifecycle_AppKillAndRelaunchRecoversCleanly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="lifecycle_AppKillAndRelaunchRecoversCleanly()[pri:3, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:13 EDT" name="lifecycle_AppKillAndRelaunchRecoversCleanly" finished-at="2026-06-28T02:16:16 EDT" duration-ms="2867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifecycle_AppKillAndRelaunchRecoversCleanly -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:16 EDT" name="setupReport" finished-at="2026-06-28T02:16:16 EDT" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.lifecycle_RotationDoesNotCrashApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="lifecycle_RotationDoesNotCrashApp()[pri:4, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:16 EDT" name="lifecycle_RotationDoesNotCrashApp" finished-at="2026-06-28T02:16:19 EDT" duration-ms="3286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifecycle_RotationDoesNotCrashApp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:19 EDT" name="setupReport" finished-at="2026-06-28T02:16:20 EDT" duration-ms="906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.navigation_MultiStepBackButtonNavigatesCorrectly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="navigation_MultiStepBackButtonNavigatesCorrectly()[pri:5, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:20 EDT" name="navigation_MultiStepBackButtonNavigatesCorrectly" finished-at="2026-06-28T02:16:24 EDT" duration-ms="3902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation_MultiStepBackButtonNavigatesCorrectly -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:24 EDT" name="setupReport" finished-at="2026-06-28T02:16:24 EDT" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.navigation_RapidMenuSwitchingDoesNotBreakApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="navigation_RapidMenuSwitchingDoesNotBreakApp()[pri:6, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:24 EDT" name="navigation_RapidMenuSwitchingDoesNotBreakApp" finished-at="2026-06-28T02:16:32 EDT" duration-ms="8369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation_RapidMenuSwitchingDoesNotBreakApp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:32 EDT" name="setupReport" finished-at="2026-06-28T02:16:32 EDT" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.device_ScreenDimensionsAreValid()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="device_ScreenDimensionsAreValid()[pri:7, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:32 EDT" name="device_ScreenDimensionsAreValid" finished-at="2026-06-28T02:16:32 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- device_ScreenDimensionsAreValid -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:32 EDT" name="setupReport" finished-at="2026-06-28T02:16:32 EDT" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.device_PlatformVersionIsAccessible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="device_PlatformVersionIsAccessible()[pri:8, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:32 EDT" name="device_PlatformVersionIsAccessible" finished-at="2026-06-28T02:16:32 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- device_PlatformVersionIsAccessible -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:32 EDT" name="setupReport" finished-at="2026-06-28T02:16:32 EDT" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.permissions_GrantFlowDoesNotThrowWhenNoDialogPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="permissions_GrantFlowDoesNotThrowWhenNoDialogPresent()[pri:9, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:32 EDT" name="permissions_GrantFlowDoesNotThrowWhenNoDialogPresent" finished-at="2026-06-28T02:16:32 EDT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- permissions_GrantFlowDoesNotThrowWhenNoDialogPresent -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:32 EDT" name="setupReport" finished-at="2026-06-28T02:16:32 EDT" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.negative_EmptyInputDoesNotCrashApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="negative_EmptyInputDoesNotCrashApp()[pri:10, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:32 EDT" name="negative_EmptyInputDoesNotCrashApp" finished-at="2026-06-28T02:16:50 EDT" duration-ms="17910" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[No EditText screen available under 'Text' menu]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: No EditText screen available under 'Text' menu
+at tests.EnterpriseTestSuite.negative_EmptyInputDoesNotCrashApp(EnterpriseTestSuite.java:168)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_EmptyInputDoesNotCrashApp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:50 EDT" name="setupReport" finished-at="2026-06-28T02:16:50 EDT" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.negative_InvalidElementInteractionThrowsGracefulException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="negative_InvalidElementInteractionThrowsGracefulException()[pri:11, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:50 EDT" name="negative_InvalidElementInteractionThrowsGracefulException" finished-at="2026-06-28T02:16:50 EDT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_InvalidElementInteractionThrowsGracefulException -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:50 EDT" name="setupReport" finished-at="2026-06-28T02:16:50 EDT" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.performance_ScrollResponseTimeWithinThreshold()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="performance_ScrollResponseTimeWithinThreshold()[pri:12, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:50 EDT" name="performance_ScrollResponseTimeWithinThreshold" finished-at="2026-06-28T02:16:54 EDT" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performance_ScrollResponseTimeWithinThreshold -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:54 EDT" name="setupReport" finished-at="2026-06-28T02:16:54 EDT" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.performance_ElementWaitTimeWithinThreshold()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="performance_ElementWaitTimeWithinThreshold()[pri:13, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:54 EDT" name="performance_ElementWaitTimeWithinThreshold" finished-at="2026-06-28T02:16:54 EDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performance_ElementWaitTimeWithinThreshold -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:54 EDT" name="setupReport" finished-at="2026-06-28T02:16:54 EDT" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.security_AppStateClearsAfterTermination()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="security_AppStateClearsAfterTermination()[pri:14, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:54 EDT" name="security_AppStateClearsAfterTermination" finished-at="2026-06-28T02:16:59 EDT" duration-ms="4975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- security_AppStateClearsAfterTermination -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:59 EDT" name="setupReport" finished-at="2026-06-28T02:16:59 EDT" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.accessibility_MenuItemsHaveAccessibilityLabels()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="accessibility_MenuItemsHaveAccessibilityLabels()[pri:15, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:59 EDT" name="accessibility_MenuItemsHaveAccessibilityLabels" finished-at="2026-06-28T02:16:59 EDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessibility_MenuItemsHaveAccessibilityLabels -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:59 EDT" name="setupReport" finished-at="2026-06-28T02:16:59 EDT" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EnterpriseTestSuite.accessibility_TapTargetsAreReasonablySized()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="accessibility_TapTargetsAreReasonablySized()[pri:16, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:59 EDT" name="accessibility_TapTargetsAreReasonablySized" finished-at="2026-06-28T02:16:59 EDT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessibility_TapTargetsAreReasonablySized -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EnterpriseTestSuite@1ebd319f]" started-at="2026-06-28T02:16:59 EDT" name="tearDown" finished-at="2026-06-28T02:16:59 EDT" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EnterpriseTestSuite -->
+    </test> <!-- Enterprise Test Categories -->
+    <test started-at="2026-06-28T02:16:59 EDT" name="Interrupt Simulation Tests" finished-at="2026-06-28T02:17:17 EDT" duration-ms="17078">
+      <class name="tests.InterruptSimulationTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.InterruptSimulationTests@2638011]" started-at="2026-06-28T02:16:59 EDT" name="setUp" finished-at="2026-06-28T02:17:05 EDT" duration-ms="5431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.InterruptSimulationTests@2638011]" started-at="2026-06-28T02:17:05 EDT" name="setupReport" finished-at="2026-06-28T02:17:05 EDT" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InterruptSimulationTests.interrupt_IncomingCallDoesNotCrashApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="interrupt_IncomingCallDoesNotCrashApp()[pri:1, instance:tests.InterruptSimulationTests@2638011]" started-at="2026-06-28T02:17:05 EDT" name="interrupt_IncomingCallDoesNotCrashApp" finished-at="2026-06-28T02:17:09 EDT" duration-ms="3996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interrupt_IncomingCallDoesNotCrashApp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.InterruptSimulationTests@2638011]" started-at="2026-06-28T02:17:09 EDT" name="setupReport" finished-at="2026-06-28T02:17:09 EDT" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InterruptSimulationTests.interrupt_IncomingSmsDoesNotCrashApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="interrupt_IncomingSmsDoesNotCrashApp()[pri:2, instance:tests.InterruptSimulationTests@2638011]" started-at="2026-06-28T02:17:09 EDT" name="interrupt_IncomingSmsDoesNotCrashApp" finished-at="2026-06-28T02:17:11 EDT" duration-ms="2379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interrupt_IncomingSmsDoesNotCrashApp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.InterruptSimulationTests@2638011]" started-at="2026-06-28T02:17:11 EDT" name="setupReport" finished-at="2026-06-28T02:17:11 EDT" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InterruptSimulationTests.interrupt_NetworkLossDoesNotCrashApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="interrupt_NetworkLossDoesNotCrashApp()[pri:3, instance:tests.InterruptSimulationTests@2638011]" started-at="2026-06-28T02:17:11 EDT" name="interrupt_NetworkLossDoesNotCrashApp" finished-at="2026-06-28T02:17:14 EDT" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interrupt_NetworkLossDoesNotCrashApp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.InterruptSimulationTests@2638011]" started-at="2026-06-28T02:17:14 EDT" name="setupReport" finished-at="2026-06-28T02:17:14 EDT" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InterruptSimulationTests.interrupt_LowBatterySimulationDoesNotAffectApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="interrupt_LowBatterySimulationDoesNotAffectApp()[pri:4, instance:tests.InterruptSimulationTests@2638011]" started-at="2026-06-28T02:17:14 EDT" name="interrupt_LowBatterySimulationDoesNotAffectApp" finished-at="2026-06-28T02:17:16 EDT" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interrupt_LowBatterySimulationDoesNotAffectApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InterruptSimulationTests@2638011]" started-at="2026-06-28T02:17:16 EDT" name="tearDown" finished-at="2026-06-28T02:17:17 EDT" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.InterruptSimulationTests -->
+    </test> <!-- Interrupt Simulation Tests -->
+    <test started-at="2026-06-28T02:17:17 EDT" name="Missing Coverage Tests (Deep Link, Notification, Network)" finished-at="2026-06-28T02:17:43 EDT" duration-ms="26006">
+      <class name="tests.MissingCoverageTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MissingCoverageTests@3098cf3b]" started-at="2026-06-28T02:17:17 EDT" name="setUp" finished-at="2026-06-28T02:17:22 EDT" duration-ms="5501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.MissingCoverageTests@3098cf3b]" started-at="2026-06-28T02:17:22 EDT" name="setupReport" finished-at="2026-06-28T02:17:22 EDT" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MissingCoverageTests.navigation_DeepLinkOpensCorrectScreen()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="navigation_DeepLinkOpensCorrectScreen()[pri:1, instance:tests.MissingCoverageTests@3098cf3b]" started-at="2026-06-28T02:17:22 EDT" name="navigation_DeepLinkOpensCorrectScreen" finished-at="2026-06-28T02:17:26 EDT" duration-ms="4016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation_DeepLinkOpensCorrectScreen -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.MissingCoverageTests@3098cf3b]" started-at="2026-06-28T02:17:26 EDT" name="setupReport" finished-at="2026-06-28T02:17:26 EDT" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MissingCoverageTests.notification_AppGeneratedNotificationAppearsInTray()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="notification_AppGeneratedNotificationAppearsInTray()[pri:2, instance:tests.MissingCoverageTests@3098cf3b]" started-at="2026-06-28T02:17:26 EDT" name="notification_AppGeneratedNotificationAppearsInTray" finished-at="2026-06-28T02:17:37 EDT" duration-ms="10796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notification_AppGeneratedNotificationAppearsInTray -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.MissingCoverageTests@3098cf3b]" started-at="2026-06-28T02:17:37 EDT" name="setupReport" finished-at="2026-06-28T02:17:37 EDT" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MissingCoverageTests.network_SlowNetworkDoesNotCrashApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="network_SlowNetworkDoesNotCrashApp()[pri:3, instance:tests.MissingCoverageTests@3098cf3b]" started-at="2026-06-28T02:17:37 EDT" name="network_SlowNetworkDoesNotCrashApp" finished-at="2026-06-28T02:17:39 EDT" duration-ms="2039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- network_SlowNetworkDoesNotCrashApp -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.MissingCoverageTests@3098cf3b]" started-at="2026-06-28T02:17:39 EDT" name="setupReport" finished-at="2026-06-28T02:17:39 EDT" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.MissingCoverageTests.network_AppRecoversAfterNetworkDropAndRetry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="network_AppRecoversAfterNetworkDropAndRetry()[pri:4, instance:tests.MissingCoverageTests@3098cf3b]" started-at="2026-06-28T02:17:39 EDT" name="network_AppRecoversAfterNetworkDropAndRetry" finished-at="2026-06-28T02:17:42 EDT" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- network_AppRecoversAfterNetworkDropAndRetry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MissingCoverageTests@3098cf3b]" started-at="2026-06-28T02:17:42 EDT" name="tearDown" finished-at="2026-06-28T02:17:43 EDT" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.MissingCoverageTests -->
+    </test> <!-- Missing Coverage Tests (Deep Link, Notification, Network) -->
+    <test started-at="2026-06-28T02:17:43 EDT" name="API Integration Tests" finished-at="2026-06-28T02:17:44 EDT" duration-ms="1455">
+      <class name="tests.ApiIntegratedTests">
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.ApiIntegratedTests@76ed1b7c]" started-at="2026-06-28T02:17:43 EDT" name="setupReport" finished-at="2026-06-28T02:17:43 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ApiIntegratedTests.api_GetUserReturnsStatus200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="api_GetUserReturnsStatus200()[pri:1, instance:tests.ApiIntegratedTests@76ed1b7c]" started-at="2026-06-28T02:17:43 EDT" name="api_GetUserReturnsStatus200" finished-at="2026-06-28T02:17:43 EDT" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_GetUserReturnsStatus200 -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.ApiIntegratedTests@76ed1b7c]" started-at="2026-06-28T02:17:43 EDT" name="setupReport" finished-at="2026-06-28T02:17:43 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ApiIntegratedTests.api_UserResponseContainsExpectedFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="api_UserResponseContainsExpectedFields()[pri:2, instance:tests.ApiIntegratedTests@76ed1b7c]" started-at="2026-06-28T02:17:43 EDT" name="api_UserResponseContainsExpectedFields" finished-at="2026-06-28T02:17:44 EDT" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_UserResponseContainsExpectedFields -->
+        <test-method signature="api_SimulatedUiToApiDataConsistencyCheck()[pri:3, instance:tests.ApiIntegratedTests@76ed1b7c]" started-at="2026-06-28T02:17:44 EDT" name="api_SimulatedUiToApiDataConsistencyCheck" finished-at="2026-06-28T02:17:44 EDT" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_SimulatedUiToApiDataConsistencyCheck -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.ApiIntegratedTests@76ed1b7c]" started-at="2026-06-28T02:17:44 EDT" name="setupReport" finished-at="2026-06-28T02:17:44 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ApiIntegratedTests.api_SimulatedUiToApiDataConsistencyCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setupReport(java.lang.reflect.Method)[pri:0, instance:tests.ApiIntegratedTests@76ed1b7c]" started-at="2026-06-28T02:17:44 EDT" name="setupReport" finished-at="2026-06-28T02:17:44 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ApiIntegratedTests.api_NonExistentResourceReturns404()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="api_NonExistentResourceReturns404()[pri:4, instance:tests.ApiIntegratedTests@76ed1b7c]" started-at="2026-06-28T02:17:44 EDT" name="api_NonExistentResourceReturns404" finished-at="2026-06-28T02:17:44 EDT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_NonExistentResourceReturns404 -->
+      </class> <!-- tests.ApiIntegratedTests -->
+      <class name="tests.MissingCoverageTests">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:tests.MissingCoverageTests@3098cf3b]" started-at="2026-06-28T02:17:44 EDT" name="flushReport" finished-at="2026-06-28T02:17:44 EDT" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- tests.MissingCoverageTests -->
+    </test> <!-- API Integration Tests -->
+  </suite> <!-- FullRegressionSuite -->
+</testng-results>
